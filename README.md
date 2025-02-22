@@ -5,6 +5,17 @@ This project aims to perform real-time emotion detection using a webcam. The mod
 
 ---
 
+## Model Performance  
+
+- **Dataset:** [FER-2013 on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)  
+- **Accuracy:** Achieved **53%** accuracy on the test set.  
+- **Improvements:**  
+  - Fine-tuning hyperparameters  
+  - Using a larger or more diverse dataset  
+  - Implementing advanced architectures (e.g., deeper CNNs)
+  - 
+---
+
 ## Features  
 - **Live Webcam Integration:** Detects emotions directly from webcam feed.  
 - **Preprocessing:** Frames are preprocessed for better model performance.  
