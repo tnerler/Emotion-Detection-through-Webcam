@@ -30,8 +30,9 @@ def get_face_crop(image):
         w = int(bboxC.width * iw)
         h = int(bboxC.height * ih)
 
+        if (x + w) - x > 0 and (y + h) - y > 0:
 
-        face = image[y:y+h, x:x+w]
+            face = image[y:y+h, x:x+w]
         
-        return face
-    return None
+            return face
+        return None
