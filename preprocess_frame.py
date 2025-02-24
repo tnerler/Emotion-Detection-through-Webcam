@@ -10,7 +10,7 @@ def preprocess_frame(frame):
     If you want to show the preprocess_frame's frame, you have to take the frame out of the batch with using np.array.
     Like that (np.array(frame)[0]),
     Since you do not need batches for
-    showing the image. And convert GRAY to BGR to better results.
+    showing the image. And convert RGB to BGR for better results.
     """
     
     frame = cv2.resize(frame, (48, 48))
